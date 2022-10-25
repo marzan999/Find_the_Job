@@ -1,5 +1,8 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
+import 'package:find_the_job/widget/home_appbar.dart';
+import 'package:find_the_job/widget/search_bar.dart';
+import 'package:find_the_job/widget/tag_list.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -22,6 +25,9 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ],
+        ),
+        Column(
+          children: [HomeAppBar(), SearchBar(), TagList()],
         )
       ]),
     );
