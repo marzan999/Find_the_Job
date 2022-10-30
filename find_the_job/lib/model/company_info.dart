@@ -11,14 +11,34 @@ class CompanyInfo {
 
   static List<CompanyInfo> generatedCompanyList() {
     return [
-      CompanyInfo('images/g.png', 'Google', 'Product Design', 'Texax, US',
-          'Fulltime', ['aaa,bbb,ccc,ddd']),
+      CompanyInfo(
+          'images/g.png', 'Google', 'Product Design', 'Texax, US', 'Fulltime', [
+        'Creative with an Eye for shape and color',
+        'Understand Different Material and Production',
+        'Creative with an Eye for shape and color',
+        'Understand Different Material and Production',
+      ]),
       CompanyInfo('images/l.png', 'LinkedIn', 'Software Engineer', 'Australia',
-          'Fulltime', ['aaa,bbb,ccc,ddd']),
-      CompanyInfo('images/i.png', 'Instagram', 'Manager', '', 'Fulltime',
-          ['aaa,bbb,ccc,ddd']),
-      CompanyInfo('images/t.png', 'Twitter', 'Product Sales', 'Japan',
-          'Fulltime', ['aaa,bbb,ccc,ddd']),
+          'Fulltime', [
+        'Creative with an Eye for shape and color',
+        'Understand Different Material and Production',
+        'Creative with an Eye for shape and color',
+        'Understand Different Material and Production',
+      ]),
+      CompanyInfo(
+          'images/i.png', 'Instagram', 'Manager', 'Swiden', 'Fulltime', [
+        'Creative with an Eye for shape and color',
+        'Understand Different Material and Production',
+        'Creative with an Eye for shape and color',
+        'Understand Different Material and Production',
+      ]),
+      CompanyInfo(
+          'images/t.png', 'Twitter', 'Product Sales', 'Japan', 'Fulltime', [
+        'Creative with an Eye for shape and color',
+        'Understand Different Material and Production',
+        'Creative with an Eye for shape and color',
+        'Understand Different Material and Production',
+      ]),
     ];
   }
 }

@@ -60,6 +60,9 @@ class CompanyItem extends StatelessWidget {
               child: Row(
                 children: [
                   Icon(Icons.location_on_outlined),
+                  SizedBox(
+                    width: 10,
+                  ),
                   Text(
                     companyInfo.location,
                     style: TextStyle(fontSize: 20),
