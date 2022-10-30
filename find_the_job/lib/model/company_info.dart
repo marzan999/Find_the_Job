@@ -11,8 +11,14 @@ class CompanyInfo {
 
   static List<CompanyInfo> generatedCompanyList() {
     return [
-      CompanyInfo('images/5.png', 'Google', 'Product Design',
-          '417, Marian plaza, Texax, US', 'Fulltime', ['aaa'])
+      CompanyInfo('images/g.png', 'Google', 'Product Design', 'Texax, US',
+          'Fulltime', ['aaa,bbb,ccc,ddd']),
+      CompanyInfo('images/l.png', 'LinkedIn', 'Software Engineer', 'Australia',
+          'Fulltime', ['aaa,bbb,ccc,ddd']),
+      CompanyInfo('images/i.png', 'Instagram', 'Manager', '', 'Fulltime',
+          ['aaa,bbb,ccc,ddd']),
+      CompanyInfo('images/t.png', 'Twitter', 'Product Sales', 'Japan',
+          'Fulltime', ['aaa,bbb,ccc,ddd']),
     ];
   }
 }

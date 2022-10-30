@@ -1,5 +1,6 @@
-// ignore_for_file: prefer_const_literals_to_create_immutables
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
+import 'package:find_the_job/widget/company_list.dart';
 import 'package:find_the_job/widget/home_appbar.dart';
 import 'package:find_the_job/widget/search_bar.dart';
 import 'package:find_the_job/widget/tag_list.dart';
@@ -27,7 +28,15 @@ class HomePage extends StatelessWidget {
           ],
         ),
         Column(
-          children: [HomeAppBar(), SearchBar(), TagList()],
+          children: [
+            HomeAppBar(),
+            SearchBar(),
+            TagList(),
+            SizedBox(
+              height: 30,
+            ),
+            CompanyList(),
+          ],
         )
       ]),
     );
